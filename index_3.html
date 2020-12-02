@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <p id="ejemplo_1"></p> <!--Esto estaba vacío! :O-->
+    <br>
+
+    <script>
+        //Esto es para escribir js en el html,(debe estar entre etiquetas script)
+        document.write(2+2); //Son numeros, no son cadenas
+        document.write("Soy JavaScript, no html");
+    </script>
+    <br>
+
+    <script>
+        console.log("¿Qué tal te ha parecido JS?")
+    </script>
+    <br>
+
+    <!--Ten en cuenta que el uso de document.white después de cargar un elemento html borrará todo el HTML-->
+    <button type="button" onclick="document.write('Te dije que no lo hicieras men ^^')">No lo hagas! :(</button>
+    <br>
+
+    <!--CTRL + P o imprimri página actual...¿Para qué? bueno, al fin y al cabo, es una salida!--> 
+    <button onclick="window.print()">Imprimir esta página</button>
+    <br>
+
+
+
+
+
+
+    <!--De no poner muscles/function (ruta relativa), el programa te lanaría error net::ERR_FILE_NOT_FOUND, revisa la solución en "Teoría"-->
+    <!--Recuerdalo, porque puede que algún día no te cargue un componente de js...!-->
+    <script type="text/javascript" src="muscles/function_3(Outputs).js"></script> 
+    
+</body>
+</html>
