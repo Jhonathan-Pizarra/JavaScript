@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>This</title>
+</head>
+<body>
+  
+<h2>The JavaScript <i>this</i> Keyword</h2>
+<p>This en el método</p>
+<p>In this example, <b>this</b> represents the <b>person</b> object.</p>
+<p>Because the person object "owns" the fullName method.</p>
+
+<p id="demo"></p>
+
+<p>This por si solo</p>
+<p>In this example, <b>this</b> refers to the window Object:</p>
+<p id="demo2"></p>
+
+<p>In this example, <b>this</b> represents the object that "owns" myFunction:</p>
+<p id="demo3"></p>
+
+<p>In a function, by default, <b>this</b> refers to the Global object.</p>
+<p>In strict mode, <b>this</b> is <b>undefined</b>, because strict mode does not allow default binding:</p>
+<p id="demo4"></p>
+
+<p>En los controladores de eventos HTML, this se refiere al elemento HTML que recibió el evento:</p>
+<button onclick="this.style.display='none'">Click to Remove Me!</button>
+
+<p>En este ejemplos, <b>this</b> es el objeto persona (El objeto persona es el "propietario" de la función):</p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+
+<p>In this example <strong>this</strong> refers to person2, even if it is a method of person1:</p>
+<p id="demo7"></p>
+
+
+<script src="muscles/function_21(this).js"></script>
+</body>
+</html>

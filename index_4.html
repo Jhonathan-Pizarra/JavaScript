@@ -6,8 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    
 
+    <p>Variables globales en HTML</p>
+    <p>En HTML, las variables globales definidas con <b>let</b>, no se convertirán en un objeto en ventana.</p>
+    <p>Pero, las variables globales definidas con <b>var</b>, si se convertirán en un objeto en ventana.</p>
+
+    <p id="demo"></p>
+    <p id="demo2"></p>
+
+    <script>
+        let carName = "Volvo";
+        var carName2 = "Toyota";
+        // code here can not use window.carName
+        document.getElementById("demo").innerHTML = "Está con let, muestro: " + window.carName;
+        document.getElementById("demo2").innerHTML = "Está con var, muestro: " + window.carName2;
+    </script>
+
+ 
      <script src="muscles/function_4(Conceptos_Basicos2).js"></script>
 </body>
 </html>
